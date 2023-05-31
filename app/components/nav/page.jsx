@@ -44,7 +44,7 @@ const Nav = () => {
 
                 {/* Service Start */}
                 <li tabIndex={0}>
-                  <div className="tooltip px-1 py-2 bg-primary group w-min group">
+                  <div className="tooltip px-1 py-2 bg-primary group w-min group z-10 ">
                     <button className="btn">
                       <Link
                         href="/"
@@ -503,7 +503,7 @@ const Nav = () => {
 
           {/* Book Consultancy Start */}
           <div className="navbar-end  ">
-            <button className="btn hover:bg-[#242742] btn-outline border-2 rounded-2xl w-36 text-[10px] font-bold px-0 md:w-[240px] md:text-[15px] ">
+            <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[10px] font-bold px-0 md:w-[240px] md:text-[15px] ">
               Book a Consultancy
             </button>
           </div>
