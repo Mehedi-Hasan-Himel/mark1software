@@ -14,3 +14,11 @@
   left: 80%;
 }
 
+.headingTag {
+  background: linear-gradient(to right, #000000, #9b59b6, #6a4c93);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headingTagBottom {
+  background: linear-gradient(to right, #000000, #9b59b6, #6a4c93);
+}
