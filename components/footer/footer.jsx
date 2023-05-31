@@ -5,8 +5,8 @@ import Image from "next/image";
 import data from "./footerLinks.json";
 const Footer = () => {
   return (
-    <section className="text-primary bg-black">
-      <footer className="text-primary body-font">
+    <footer className="text-primary bg-black">
+      <section className="text-primary body-font">
         <section className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           {/* Footer Introductio Section Start */}
           <section className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -207,8 +207,8 @@ const Footer = () => {
             </span>
           </section>
         </section>
-      </footer>
-    </section>
+      </section>
+    </footer>
   );
 };
 

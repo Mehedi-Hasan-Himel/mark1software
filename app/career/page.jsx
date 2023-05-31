@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Career = () => {
-   return (
-      <div>
-         Carrer ok bye.
-      </div>
-   );
+  return <section>Carrer ok bye.</section>;
 };
 
 export default Career;
