@@ -1,11 +1,19 @@
-import React from 'react';
+import React from 'react'
+import Career from './Career'
+import Investor from './Investor'
+import Mission from './Mission'
+import Values from './Values'
+import Team from './Team'
 
-const Career = () => {
-   return (
-      <div>
-         Carrer ok bye.
-      </div>
-   );
-};
 
-export default Career;
+export default function page() {
+  return (
+    <>
+        <Career/>
+        <Mission/>
+        <Values/>
+        <Team/>
+        <Investor/>
+    </>
+  )
+}
