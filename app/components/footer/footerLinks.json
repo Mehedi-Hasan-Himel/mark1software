@@ -1,0 +1,82 @@
+{
+  "itservices": [
+    {
+      "name": "IT Consultancy",
+      "route": "./services/it-consultancy"
+    },
+    {
+      "name": "Digital Marketing",
+      "route": "./services/gigital-marketing"
+    },
+    {
+      "name": "Network Solutions",
+      "route": "./services/network-solutions"
+    },
+    {
+      "name": "Security & Access Control Solution",
+      "route": "./services/security-access-control-solution"
+    }
+  ],
+  "softwareDevelopment": [
+    {
+      "name": "Software Quality Assurance (SQA)",
+      "route": "./services/sqa"
+    },
+    {
+      "name": "UI / UX Design",
+      "route": "./services/ui-ux-design"
+    },
+    {
+      "name": "Web Design",
+      "route": "./services/web-design"
+    },
+    {
+      "name": "Web Application Development",
+      "route": "./services/web-application-development"
+    },
+    {
+      "name": "WordPress Development",
+      "route": "./services/wordpress-development"
+    }
+  ],
+  "others": [
+    {
+      "name": "About",
+      "route": "./about"
+    },
+    {
+      "name": "Contact",
+      "route": "./contact"
+    },
+    {
+      "name": "Career",
+      "route": "./career"
+    },
+    {
+      "name": "Blog",
+      "route": "./blog"
+    },
+    {
+      "name": "Client Reviews",
+      "route": "./client-reviews"
+    }
+  ],
+  "getInTouch": [
+    {
+      "name": "7th Floor, Plot No-5,Block-B, Road-7, Chandrima Model Town,Mohammadpur, Dhaka, Bangladesh",
+      "route":""
+    },
+    {
+      "name":"info@mark1soft.com",
+      "route":""
+    },
+    {
+      "name":"+88 017 16 798704",
+      "route":""
+    },
+    {
+      "name":"LinkedIn",
+      "route":"https://www.linkedin.com/company/mark1software/"
+    }
+  ]
+}
