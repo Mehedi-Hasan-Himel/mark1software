@@ -229,7 +229,7 @@ const Nav = () => {
             </div>
             <Link href="/" className="hover:bg-none">
               <Image
-                src="Logo.svg"
+                src="/Logo.svg"
                 width={250}
                 height={250}
                 alt="Company Logo"

@@ -12,7 +12,7 @@ const Footer = () => {
           <section className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <Link href="/" className="hover:bg-none">
               <Image
-                src="Logo.svg"
+                src="/logo-name-white.svg"
                 width={250}
                 height={250}
                 alt="Company Logo"
