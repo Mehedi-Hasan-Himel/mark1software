@@ -1,11 +1,14 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
 const CTA = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
         {/* CTA Hero Section Start */}
-        <div className="container px-5 py-14 mx-auto">
+        <div className="container px-5 py-7 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h3
               className="text-3xl font-semibold first-letter 
@@ -43,7 +46,10 @@ const CTA = () => {
               />
             </div> */}
             <div className="flex-grow w-full">
-              <label for="email" className="leading-7 text-sm text-gray-600">
+              <label
+                htmlFor="email"
+                className="leading-7 text-sm text-gray-600"
+              >
                 Email
               </label>
               <input
@@ -95,7 +101,7 @@ const CTA = () => {
         {/* CTA Hero Section End */}
 
         {/* CTA About Section Start */}
-        <div className="container px-5 py-14 mx-auto">
+        <div className="container px-5 py-7 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h3
               className="text-3xl font-semibold first-letter 
@@ -104,25 +110,34 @@ const CTA = () => {
               About
             </h3>
 
-            <h1 className=" headingTag text-xl md:text-6xl	 font-bold title-font my-7 text-neutral">
-              Your Ultimate IT Service and Software Development Solution Team
+            <h1 className="  text-3xl md:text-6xl font-bold title-font my-3 text-neutral flex justify-center items-center">
+              <Image
+                width={100}
+                height={120}
+                className=""
+                alt="hero"
+                src="/logo-gradient.svg"
+              />
+              <span className="md:ml-3 headingTag md:text-6xl">
+                Mark One Soft
+              </span>
             </h1>
-            <section class="text-gray-600 body-font">
-              <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <section className="text-gray-600 body-font">
+              <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                   <Image
                     width={500}
                     height={620}
-                    class="object-cover object-center rounded-lg "
+                    className="object-cover object-center rounded-lg "
                     alt="hero"
                     src="/founder.jpeg"
                   />
                 </div>
-                <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                     About Us
                   </h1>
-                  <p class="mb-8 leading-relaxed text-justify">
+                  <p className="mb-8 leading-relaxed text-justify">
                     At Mark One Soft, we are passionate about driving digital
                     transformation for businesses. As a trusted IT consultancy
                     and software engineering firm, we specialize in delivering
@@ -133,8 +148,8 @@ const CTA = () => {
                     experience the difference as we propel your business forward
                     in the ever-evolving digital landscape.
                   </p>
-                  <div class="flex justify-center">
-                    <button class="inline-flex text-white bg-neutral border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  <div className="flex justify-center">
+                    <button className="inline-flex text-white bg-neutral border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                       Button
                     </button>
                   </div>
