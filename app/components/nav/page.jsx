@@ -5,6 +5,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <>
+      {/* NavBar Start */}
       <div className=" bg-primary text-black md:px-5 md:pt-8 drop-shadow">
         <div className="navbar ">
           <div className="navbar-start">
@@ -66,9 +67,12 @@ const Nav = () => {
 
                   <ul className="p-2">
                     <li>
-                      <div className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                      <div className="tooltip px-1 py-2 bg-primary group ">
+                        <button className="btn">
+                          <Link
+                            href="/"
+                            className="group-hover:text-primary md:hidden "
+                          >
                             IT Consultancy
                           </Link>
                         </button>
@@ -502,14 +506,15 @@ const Nav = () => {
           {/* Desktop Desgin End */}
 
           {/* Book Consultancy Start */}
-          <div className="navbar-end  ">
-            <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[10px] font-bold px-0 md:w-[240px] md:text-[15px] ">
+          <div className="navbar-end">
+            <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[11px] font-bold px-0 md:w-[150px] lg:w-[200px]  ">
               Book a Consultancy
             </button>
           </div>
           {/* Book Consultancy End */}
         </div>
       </div>
+      {/* NavBar End */}
     </>
   );
 };
