@@ -1,0 +1,34 @@
+{
+  "ourServicesData": [
+    {
+      "logo": "/ourServices/services-1.png",
+      "title": "Breakdance builder solution",
+      "desc": "Get your website busting a move with Breakdance Builder! Our team of experts will help you create a website that stands out from the crowd. Let's dance our way to a stunning website!"
+    },
+    {
+      "logo": "/ourServices/service-2.webp",
+      "title": "Bricks builder solution",
+      "desc": "Elevate your website with Bricks! Our experts will help you create a stunning website that reflects your unique brand and style. Let's build something great together!"
+    },
+    {
+      "logo": "/ourServices/service-3.webp",
+      "title": "Elementor builder solution",
+      "desc": "Maximize your website's potential with Elementor! Our team of skilled developers will transform your website into a visually stunning masterpiece. Let's create something amazing!"
+    },
+    {
+      "logo": "/ourServices/service-4.jpg",
+      "title": "Malware Removal",
+      "desc": "Concerned about malware on your website? Relax, we've got you covered. Our team will thoroughly clean and remove any malware from your website."
+    },
+    {
+      "logo": "/ourServices/service-5.svg",
+      "title": "Website Speed performance",
+      "desc": "Speed up your website with WpBuilderPro. Our experts optimize your site for faster load times and a better user experience. Boost engagement and performance today!"
+    },
+    {
+      "logo": "/ourServices/service-6.png",
+      "title": "Fix error or broken website",
+      "desc": "Get fast and reliable website fixes with WpBuilderPro. Our team of experts will quickly resolve errors and have your site running smoothly again. Trust us to keep your online presence strong."
+    }
+  ]
+}

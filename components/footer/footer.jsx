@@ -31,7 +31,7 @@ const Footer = () => {
                 IT Services
               </h2>
               <nav className="list-none mb-10 flex flex-col gap-3">
-                {data.itservices.map((item, index) => {
+                {data.itServices.map((item, index) => {
                   return (
                     <li key={index}>
                       <Link
@@ -101,7 +101,7 @@ const Footer = () => {
                   return (
                     <li key={index}>
                       <Link
-                        target={item.route.length > 0 && "_blank"}
+                        target={item.route.length > 0 ? "_blank":undefined}
                         href={item.route}
                         className="text-primary hover:text-[#34751a]"
                       >

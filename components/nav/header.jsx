@@ -33,13 +33,14 @@ const Nav = () => {
               >
                 {/* Home Start */}
                 <li>
-                  <section className="tooltip px-1 py-2 bg-primary group w-min">
-                    <button className="btn">
-                      <Link href="/" className="group-hover:text-primary">
-                        Home{" "}
-                      </Link>
-                    </button>
-                  </section>
+                  <Link
+                    href="./"
+                    className="tooltip px-1 py-2 bg-primary group w-min"
+                  >
+                    <section className="group-hover:text-primary">
+                      <button className="btn">Home </button>
+                    </section>{" "}
+                  </Link>
                 </li>
                 {/* Home End */}
 
@@ -48,7 +49,7 @@ const Nav = () => {
                   <section className="tooltip px-1 py-2 bg-primary group w-min group z-10 ">
                     <button className="btn">
                       <Link
-                        href="/"
+                        href="./Services"
                         className="group-hover:text-primary flex items-center gap-3"
                       >
                         Services
@@ -70,7 +71,7 @@ const Nav = () => {
                       <section className="tooltip px-1 py-2 bg-primary group ">
                         <button className="btn">
                           <Link
-                            href="/"
+                            href="./Services/IT-Consultancy"
                             className="group-hover:text-primary md:hidden "
                           >
                             IT Consultancy
@@ -81,7 +82,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/Software-Quality-Assurance"
+                            className="group-hover:text-primary"
+                          >
                             Software Quality Assurance (SQA)
                           </Link>
                         </button>
@@ -90,7 +94,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/Digital-Marketing"
+                            className="group-hover:text-primary"
+                          >
                             Digital Marketing
                           </Link>
                         </button>
@@ -99,7 +106,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/Network-Solutions"
+                            className="group-hover:text-primary"
+                          >
                             Network Solutions
                           </Link>
                         </button>
@@ -108,7 +118,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/Security-Access-Control-Solution"
+                            className="group-hover:text-primary"
+                          >
                             Security & Access Control Solution
                           </Link>
                         </button>
@@ -117,7 +130,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/UI-UX"
+                            className="group-hover:text-primary"
+                          >
                             UI / UX Design
                           </Link>
                         </button>
@@ -126,7 +142,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/Web-Design"
+                            className="group-hover:text-primary"
+                          >
                             Web Design
                           </Link>
                         </button>
@@ -135,7 +154,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group ">
                         <button className="btn">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/Web-Application"
+                            className="group-hover:text-primary"
+                          >
                             Web Application
                           </Link>
                         </button>
@@ -144,7 +166,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Services/WordPress-Development"
+                            className="group-hover:text-primary"
+                          >
                             WordPress Development
                           </Link>
                         </button>
@@ -158,7 +183,7 @@ const Nav = () => {
                 <li>
                   <section className="tooltip px-1 py-2 bg-primary group w-min">
                     <button className="btn">
-                      <Link href="/" className="group-hover:text-primary">
+                      <Link href="./Blogs" className="group-hover:text-primary">
                         Blogs
                       </Link>
                     </button>
@@ -170,10 +195,7 @@ const Nav = () => {
                 <li tabIndex={0}>
                   <section className="tooltip px-1 py-2 bg-primary group w-min group">
                     <button className="btn">
-                      <Link
-                        href="/"
-                        className="flex gap-3 items-center group-hover:text-primary"
-                      >
+                      <span className="flex gap-3 items-center group-hover:text-primary">
                         Others
                         <svg
                           className="fill-current group-hover:rotate-180 transition-all"
@@ -184,7 +206,7 @@ const Nav = () => {
                         >
                           <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                         </svg>
-                      </Link>
+                      </span>
                     </button>
                   </section>
 
@@ -192,7 +214,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn  ">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./About"
+                            className="group-hover:text-primary"
+                          >
                             About
                           </Link>
                         </button>
@@ -201,7 +226,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Contact"
+                            className="group-hover:text-primary"
+                          >
                             Contact
                           </Link>
                         </button>
@@ -210,7 +238,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Client-Review"
+                            className="group-hover:text-primary"
+                          >
                             Client&#39;s Review
                           </Link>
                         </button>
@@ -219,7 +250,10 @@ const Nav = () => {
                     <li>
                       <section className="tooltip px-1 py-2 bg-primary group">
                         <button className="btn">
-                          <Link href="/" className="group-hover:text-primary">
+                          <Link
+                            href="./Career"
+                            className="group-hover:text-primary"
+                          >
                             Career
                           </Link>
                         </button>
@@ -245,24 +279,23 @@ const Nav = () => {
             <ul className="menu menu-horizontal px-1">
               {/* Home Start */}
               <li>
-                <section className="tooltip px-1 py-2 bg-primary group">
-                  <button className="btn">
-                    <Link href="/" className="group-hover:text-primary">
-                      Home{" "}
-                    </Link>
-                  </button>
-                </section>
+                <Link href="./" className="tooltip px-1 py-2 bg-primary group">
+                  <section className="group-hover:text-primary">
+                    <button className="btn">Home</button>
+                  </section>
+                </Link>
               </li>
               {/* Home End */}
 
               {/* Services Start */}
               <li tabIndex={0}>
-                <section className="tooltip px-1 py-2 bg-primary group">
-                  <button className="btn ">
-                    <Link
-                      href="/"
-                      className="group-hover:text-primary flex items-center gap-3"
-                    >
+                {" "}
+                <Link
+                  href="./Services"
+                  className="tooltip px-1 py-2 bg-primary group"
+                >
+                  <section className="group-hover:text-primary flex items-center gap-3">
+                    <button className="btn ">
                       Services
                       <svg
                         className="fill-current group-hover:rotate-180 transition-all"
@@ -273,15 +306,17 @@ const Nav = () => {
                       >
                         <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                       </svg>
-                    </Link>
-                  </button>
-                </section>
-
+                    </button>
+                  </section>{" "}
+                </Link>
                 <ul className="p-2">
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/IT-Consultancy"
+                          className="group-hover:text-primary"
+                        >
                           IT Consultancy
                         </Link>
                       </button>
@@ -290,7 +325,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Software-Quality-Assurance"
+                          className="group-hover:text-primary"
+                        >
                           Software Quality Assurance (SQA)
                         </Link>
                       </button>
@@ -299,7 +337,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Digital-Marketing"
+                          className="group-hover:text-primary"
+                        >
                           Digital Marketing
                         </Link>
                       </button>
@@ -308,7 +349,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Network-Solutions"
+                          className="group-hover:text-primary"
+                        >
                           Network Solutions
                         </Link>
                       </button>
@@ -317,7 +361,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Security-Access-Control-Solution"
+                          className="group-hover:text-primary"
+                        >
                           Security & Access Control Solution
                         </Link>
                       </button>
@@ -326,7 +373,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/UI-UX"
+                          className="group-hover:text-primary"
+                        >
                           UI / UX Design
                         </Link>
                       </button>
@@ -335,7 +385,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Web-Design"
+                          className="group-hover:text-primary"
+                        >
                           Web Design
                         </Link>
                       </button>
@@ -344,7 +397,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Web-Application"
+                          className="group-hover:text-primary"
+                        >
                           Web Application
                         </Link>
                       </button>
@@ -353,7 +409,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/WordPress-Development"
+                          className="group-hover:text-primary"
+                        >
                           WordPress Development
                         </Link>
                       </button>
@@ -371,7 +430,10 @@ const Nav = () => {
                   data-tip="NEW !"
                 >
                   <button className="btn">
-                    <Link href="/" className="group-hover:text-primary">
+                    <Link
+                      href="./Services/UI-UX"
+                      className="group-hover:text-primary"
+                    >
                       Free UI / UX Design
                     </Link>
                   </button>
@@ -383,7 +445,7 @@ const Nav = () => {
               <li>
                 <section className="tooltip px-1 py-2 bg-primary group">
                   <button className="btn">
-                    <Link href="/" className="group-hover:text-primary">
+                    <Link href="./Blogs" className="group-hover:text-primary">
                       Blogs
                     </Link>
                   </button>
@@ -399,7 +461,7 @@ const Nav = () => {
                 >
                   <button className="btn">
                     <Link
-                      href="/"
+                      href="./Services/Web-Application"
                       className="group-hover:text-primary flex gap-3 items-center group"
                     >
                       Web Application
@@ -420,7 +482,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Web-Application"
+                          className="group-hover:text-primary"
+                        >
                           MERN Stack
                         </Link>
                       </button>
@@ -429,7 +494,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Services/Web-Application"
+                          className="group-hover:text-primary"
+                        >
                           Next.JS Full Stack
                         </Link>
                       </button>
@@ -443,10 +511,7 @@ const Nav = () => {
               <li tabIndex={0}>
                 <section className="tooltip px-1 py-2 bg-primary group">
                   <button className="btn">
-                    <Link
-                      href="/"
-                      className="group-hover:text-primary flex gap-3 items-center group"
-                    >
+                    <span className="group-hover:text-primary flex gap-3 items-center group">
                       Others
                       <svg
                         className="fill-current group-hover:rotate-180 transition-all"
@@ -457,7 +522,7 @@ const Nav = () => {
                       >
                         <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                       </svg>
-                    </Link>
+                    </span>
                   </button>
                 </section>
 
@@ -465,7 +530,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn  ">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./About"
+                          className="group-hover:text-primary"
+                        >
                           About
                         </Link>
                       </button>
@@ -474,7 +542,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Contact"
+                          className="group-hover:text-primary"
+                        >
                           Contact
                         </Link>
                       </button>
@@ -483,7 +554,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Client-Review"
+                          className="group-hover:text-primary"
+                        >
                           Client&#39;s Review
                         </Link>
                       </button>
@@ -492,7 +566,10 @@ const Nav = () => {
                   <li>
                     <section className="tooltip px-1 py-2 bg-primary group">
                       <button className="btn">
-                        <Link href="/" className="group-hover:text-primary">
+                        <Link
+                          href="./Career"
+                          className="group-hover:text-primary"
+                        >
                           Career
                         </Link>
                       </button>
@@ -508,7 +585,9 @@ const Nav = () => {
           {/* Book Consultancy Start */}
           <section className="navbar-end">
             <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[11px] font-bold px-0 md:w-[150px] lg:w-[200px]  ">
-              Book a Consultancy
+              <Link href="./Contact" className="">
+                Book a Consultancy
+              </Link>
             </button>
           </section>
           {/* Book Consultancy End */}

@@ -1,64 +1,64 @@
 {
-  "itservices": [
+  "itServices": [
     {
       "name": "IT Consultancy",
-      "route": "./services/it-consultancy"
+      "route": "./Services/IT-Consultancy"
     },
     {
       "name": "Digital Marketing",
-      "route": "./services/gigital-marketing"
+      "route": "./Services/Digital-Marketing"
     },
     {
       "name": "Network Solutions",
-      "route": "./services/network-solutions"
+      "route": "./Services/Network-Solutions"
     },
     {
       "name": "Security & Access Control Solution",
-      "route": "./services/security-access-control-solution"
+      "route": "./Services/Security-Access-Control-Solution"
     }
   ],
   "softwareDevelopment": [
     {
       "name": "Software Quality Assurance (SQA)",
-      "route": "./services/sqa"
+      "route": "./Services/Software-Quality-Assurance"
     },
     {
       "name": "UI / UX Design",
-      "route": "./services/ui-ux-design"
+      "route": "./Services/UI-UX"
     },
     {
       "name": "Web Design",
-      "route": "./services/web-design"
+      "route": "./Services/Web-Design"
     },
     {
       "name": "Web Application Development",
-      "route": "./services/web-application-development"
+      "route": "./Services/Web-Application"
     },
     {
       "name": "WordPress Development",
-      "route": "./services/wordpress-development"
+      "route": "./Services/WordPress-Development"
     }
   ],
   "others": [
     {
       "name": "About",
-      "route": "./about"
+      "route": "./About"
     },
     {
       "name": "Contact",
-      "route": "./contact"
+      "route": "./Contact"
     },
     {
       "name": "Career",
-      "route": "./career"
+      "route": "./Career"
     },
     {
       "name": "Blog",
-      "route": "./blog"
+      "route": "./Blogs"
     },
     {
       "name": "Client Reviews",
-      "route": "./client-reviews"
+      "route": "./Client-Review"
     }
   ],
   "getInTouch": [
