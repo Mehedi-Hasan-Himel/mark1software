@@ -29,7 +29,7 @@ const ourServices = () => {
                   className="p-4 md:w-1/3 flex flex-col text-center items-center"
                   key={index}
                 >
-                  <div className="w-20 h-20 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0 rounded-full overflow-hidden">
+                  <div className="w-20 h-20 inline-flex items-center justify-center  text-indigo-500 mb-5 flex-shrink-0">
                     <Image
                       src={item.logo}
                       width={100}
