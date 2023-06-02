@@ -47,26 +47,28 @@ export default function Mission() {
         our mission
       </small>
       <h2 className="text-3xl font-bold my-6 lg:w-3/5 mx-auto">
-        We're on a mission to expand the career opportunitie of people who code,
-        and we'd like your help to get us there
+        We are on a mission to expand the career opportunitie of people who
+        code, and we would like your help to get us there
       </h2>
-      <div className="lg:p-20 md:p-16 sm:p-8 p-6 rounded-xl bg-[#10141e] mt-32">
+      <div className="lg:p-20 md:p-16 sm:p-8 p-6 rounded-xl bg-white mt-32">
         <h3 className="text-3xl font-bold mb-20">Open Positions (15)</h3>
-        {position.map((data) => {
+        {position.map((data, index) => {
           return (
-            <Link href={"./careers/"+data.jobName}>
+            <Link href={"./Career/" + data.jobName} key={index}>
               <div className="my-5">
-              <div className="rounded-lg px-6 py-8 bg-[#171B26] hover:shadow-xl mx-4 hover:mx-0 duration-500 transition-all">
-                <div>
-                  <h5 className="text-start text-xl font-bold">{data.title}</h5>
-                  <p className="flex my-2 text-gray-600">
-                    <i className="mr-2"></i>
-                    {data.place}
-                    <i className="mx-2"></i>
-                    {data.time}
-                  </p>
-                </div>
-                <i className="items-center text-blue-600"></i>
+                <div className="rounded-lg px-6 py-8 bg-[#dbe2f5] hover:shadow-xl mx-4 hover:mx-0 duration-500 transition-all">
+                  <div>
+                    <h5 className="text-start text-xl font-bold">
+                      {data.title}
+                    </h5>
+                    <p className="flex my-2 text-gray-600">
+                      <i className="mr-2"></i>
+                      {data.place}
+                      <i className="mx-2"></i>
+                      {data.time}
+                    </p>
+                  </div>
+                  <i className="items-center text-blue-600"></i>
                 </div>
               </div>
             </Link>
