@@ -2,8 +2,8 @@ import React from "react";
 import CTA from "../../components/cta/page";
 import Cards from "../../components/cards/page";
 import HomeAbout from "../../components/homeAbout/homeAbout";
-import OurServices from "../../components/ourServices/ourServices"
-
+import OurServices from "../../components/ourServices/page";
+import ExperienceWith from "../../components/ExperienceWith/page";
 
 const HomePage = () => {
   return (
@@ -11,7 +11,8 @@ const HomePage = () => {
       <CTA />
       <HomeAbout />
       <Cards />
-      <OurServices/>
+      <OurServices />
+      <ExperienceWith />
     </section>
   );
 };

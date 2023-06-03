@@ -19,14 +19,3 @@ const CareerPage = () => {
 
 export default CareerPage;
 
-// export default function page() {
-//   return (
-//     <>
-//       <Career />
-//       <Mission />
-//       <Values />
-//       <Team />
-//       <Investor />
-//     </>
-//   );
-// }
