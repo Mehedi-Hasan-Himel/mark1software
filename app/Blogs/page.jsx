@@ -16,7 +16,7 @@ const Blogs = () => {
               <div className="p-6">
                 <div>
                   <a className="hover:underline text-xl" href="#">
-                    Introducing Pixel Fold: Google's first foldable phone
+                    Introducing Pixel Fold: Googles first foldable phone
                   </a>
                   <p className="text-gray-600 my-4">
                     Pixel Fold, Googles first foldable phone, unlocks even more
@@ -59,7 +59,7 @@ const Blogs = () => {
           <p className="text-sm text-gray-400">
             Your information will be used in accordance with{" "}
             <a className="underline hover:no-underline" href="#">
-              Google's privacy policy.
+              Googles privacy policy.
             </a>
           </p>
         </div>
