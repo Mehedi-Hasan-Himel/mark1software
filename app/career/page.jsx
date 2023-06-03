@@ -1,19 +1,18 @@
-import React from 'react'
-import Career from '../../components/careers/Career'
-import Investor from '../../components/careers/Investor'
-import Mission from '../../components/careers/Mission'
-import Values from '../../components/careers/Values'
-import Team from '../../components/careers/Team'
-
+import React from "react";
+import Career from "../../components/career/Career";
+import Investor from "../../components/career/Investor";
+import Mission from "../../components/career/Mission";
+import Values from "../../components/career/Values";
+import Team from "../../components/career/Team";
 
 export default function page() {
   return (
     <>
-        <Career/>
-        <Mission/>
-        <Values/>
-        <Team/>
-        <Investor/>
+      <Career />
+      <Mission />
+      <Values />
+      <Team />
+      <Investor />
     </>
-  )
+  );
 }

@@ -1,0 +1,34 @@
+{
+  "ourServicesData": [
+    {
+      "logo": "/ourServices/ItConsultancy.png",
+      "title": "It Consultancy",
+      "desc": "Get your website busting a move with Breakdance Builder! Our team of experts will help you create a website that stands out from the crowd. Let's dance our way to a stunning website!"
+    },
+    {
+      "logo": "/ourServices/sqa.jpeg",
+      "title": "Software Quality Assurance (SQA)",
+      "desc": "Elevate your website with Bricks! Our experts will help you create a stunning website that reflects your unique brand and style. Let's build something great together!"
+    },
+    {
+      "logo": "/ourServices/digitalMarketing.png",
+      "title": "Digital Marketing",
+      "desc": "Maximize your website's potential with Elementor! Our team of skilled developers will transform your website into a visually stunning masterpiece. Let's create something amazing!"
+    },
+    {
+      "logo": "/ourServices/NetworkSolution.png",
+      "title": "Network-Solutions",
+      "desc": "Concerned about malware on your website? Relax, we've got you covered. Our team will thoroughly clean and remove any malware from your website."
+    },
+    {
+      "logo": "/ourServices/accessControl.png",
+      "title": "Security Access Control Solution",
+      "desc": "Speed up your website with WpBuilderPro. Our experts optimize your site for faster load times and a better user experience. Boost engagement and performance today!"
+    },
+    {
+      "logo": "/ourServices/UI-UX.png",
+      "title": "UI-UX",
+      "desc": "Get fast and reliable website fixes with WpBuilderPro. Our team of experts will quickly resolve errors and have your site running smoothly again. Trust us to keep your online presence strong."
+    }
+  ]
+}
