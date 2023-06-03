@@ -46,12 +46,12 @@ const Nav = () => {
 
                 {/* Service Start */}
                 <li tabIndex={0}>
-                  <section className="tooltip px-1 py-2 bg-primary group w-min group z-10 ">
-                    <button className="btn">
-                      <Link
-                        href="./Services"
-                        className="group-hover:text-primary flex items-center gap-3"
-                      >
+                  <Link
+                    className="tooltip px-1 py-2 bg-primary group w-min group z-10 "
+                    href="./Services"
+                  >
+                    <section className="group-hover:text-primary flex items-center gap-3">
+                      <button className="btn">
                         Services
                         <svg
                           className="fill-current group-hover:rotate-180 transition-all"
@@ -62,118 +62,106 @@ const Nav = () => {
                         >
                           <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                         </svg>
-                      </Link>
-                    </button>
-                  </section>
-
+                      </button>
+                    </section>{" "}
+                  </Link>
                   <ul className="p-2">
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group ">
-                        <button className="btn">
-                          <Link
-                            href="./Services/IT-Consultancy"
-                            className="group-hover:text-primary md:hidden "
-                          >
-                            IT Consultancy
-                          </Link>
-                        </button>
-                      </section>
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group "
+                        href="./Services/IT-Consultancy"
+                      >
+                        <section className="group-hover:text-primary md:hidden ">
+                          <button className="btn">IT Consultancy</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link
-                            href="./Services/Software-Quality-Assurance"
-                            className="group-hover:text-primary"
-                          >
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/Software-Quality-Assurance"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn  ">
                             Software Quality Assurance (SQA)
-                          </Link>
-                        </button>
-                      </section>
+                          </button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link
-                            href="./Services/Digital-Marketing"
-                            className="group-hover:text-primary"
-                          >
-                            Digital Marketing
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/Digital-Marketing"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn  ">Digital Marketing</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link
-                            href="./Services/Network-Solutions"
-                            className="group-hover:text-primary"
-                          >
-                            Network Solutions
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/Network-Solutions"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn  ">Network Solutions</button>
+                        </section>
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link
-                            href="./Services/Security-Access-Control-Solution"
-                            className="group-hover:text-primary"
-                          >
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/Security-Access-Control-Solution"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn  ">
                             Security & Access Control Solution
-                          </Link>
-                        </button>
-                      </section>
+                          </button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link
-                            href="./Services/UI-UX"
-                            className="group-hover:text-primary"
-                          >
-                            UI / UX Design
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/UI-UX"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn  ">UI / UX Design</button>
+                        </section>
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn">
-                          <Link
-                            href="./Services/Web-Design"
-                            className="group-hover:text-primary"
-                          >
-                            Web Design
-                          </Link>
-                        </button>
-                      </section>
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/Web-Design"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn">Web Design</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group ">
-                        <button className="btn">
-                          <Link
-                            href="./Services/Web-Application"
-                            className="group-hover:text-primary"
-                          >
-                            Web Application
-                          </Link>
-                        </button>
-                      </section>
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group "
+                        href="./Services/Web-Application"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn">Web Application</button>
+                        </section>
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn">
-                          <Link
-                            href="./Services/WordPress-Development"
-                            className="group-hover:text-primary"
-                          >
-                            WordPress Development
-                          </Link>
-                        </button>
-                      </section>
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Services/WordPress-Development"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn">WordPress Development</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -181,13 +169,14 @@ const Nav = () => {
 
                 {/* Blogs Start */}
                 <li>
-                  <section className="tooltip px-1 py-2 bg-primary group w-min">
-                    <button className="btn">
-                      <Link href="./Blogs" className="group-hover:text-primary">
-                        Blogs
-                      </Link>
-                    </button>
-                  </section>
+                  <Link
+                    className="tooltip px-1 py-2 bg-primary group w-min"
+                    href="./Blogs"
+                  >
+                    <section className="group-hover:text-primary">
+                      <button className="btn">Blogs</button>
+                    </section>
+                  </Link>
                 </li>
                 {/* Blogs End */}
 
@@ -212,52 +201,48 @@ const Nav = () => {
 
                   <ul className="p-2">
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn  ">
-                          <Link
-                            href="./About"
-                            className="group-hover:text-primary"
-                          >
-                            About
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./About"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn  ">About</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn">
-                          <Link
-                            href="./Contact"
-                            className="group-hover:text-primary"
-                          >
-                            Contact
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Contact"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn">Contact</button>
+                        </section>
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn">
-                          <Link
-                            href="./Client-Review"
-                            className="group-hover:text-primary"
-                          >
-                            Client&#39;s Review
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Client-Review"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn">Client&#39;s Review</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                     <li>
-                      <section className="tooltip px-1 py-2 bg-primary group">
-                        <button className="btn">
-                          <Link
-                            href="./Career"
-                            className="group-hover:text-primary"
-                          >
-                            Career
-                          </Link>
-                        </button>
-                      </section>
+                      {" "}
+                      <Link
+                        className="tooltip px-1 py-2 bg-primary group"
+                        href="./Career"
+                      >
+                        <section className="group-hover:text-primary">
+                          <button className="btn">Career</button>
+                        </section>{" "}
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -289,7 +274,6 @@ const Nav = () => {
 
               {/* Services Start */}
               <li tabIndex={0}>
-                {" "}
                 <Link
                   href="./Services"
                   className="tooltip px-1 py-2 bg-primary group"
@@ -311,112 +295,98 @@ const Nav = () => {
                 </Link>
                 <ul className="p-2">
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/IT-Consultancy"
-                          className="group-hover:text-primary"
-                        >
-                          IT Consultancy
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      href="./Services/IT-Consultancy"
+                      className="tooltip px-1 py-2 bg-primary group"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">IT Consultancy</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/Software-Quality-Assurance"
-                          className="group-hover:text-primary"
-                        >
+                    <Link
+                      href="./Services/Software-Quality-Assurance"
+                      className="tooltip px-1 py-2 bg-primary group"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">
                           Software Quality Assurance (SQA)
-                        </Link>
-                      </button>
-                    </section>
+                        </button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/Digital-Marketing"
-                          className="group-hover:text-primary"
-                        >
-                          Digital Marketing
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      href="./Services/Digital-Marketing"
+                      className="tooltip px-1 py-2 bg-primary group"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">Digital Marketing</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/Network-Solutions"
-                          className="group-hover:text-primary"
-                        >
-                          Network Solutions
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/Network-Solutions"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">Network Solutions</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/Security-Access-Control-Solution"
-                          className="group-hover:text-primary"
-                        >
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/Security-Access-Control-Solution"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">
                           Security & Access Control Solution
-                        </Link>
-                      </button>
-                    </section>
+                        </button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/UI-UX"
-                          className="group-hover:text-primary"
-                        >
-                          UI / UX Design
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/UI-UX"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">UI / UX Design</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Services/Web-Design"
-                          className="group-hover:text-primary"
-                        >
-                          Web Design
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/Web-Design"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">Web Design</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Services/Web-Application"
-                          className="group-hover:text-primary"
-                        >
-                          Web Application
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/Web-Application"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">Web Application</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Services/WordPress-Development"
-                          className="group-hover:text-primary"
-                        >
-                          WordPress Development
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/WordPress-Development"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">WordPress Development</button>
+                      </section>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -425,45 +395,40 @@ const Nav = () => {
               {/* Free UI / UX Start */}
 
               <li>
-                <section
+                <Link
                   className="tooltip px-1 py-2 bg-primary group tooltip-open tooltip-top"
                   data-tip="NEW !"
+                  href="./Services/UI-UX"
                 >
-                  <button className="btn">
-                    <Link
-                      href="./Services/UI-UX"
-                      className="group-hover:text-primary"
-                    >
-                      Free UI / UX Design
-                    </Link>
-                  </button>
-                </section>
+                  <section className="group-hover:text-primary">
+                    <button className="btn">Free UI / UX Design</button>
+                  </section>
+                </Link>
               </li>
               {/* Free UI / UX Start */}
 
               {/* Blogs Start */}
               <li>
-                <section className="tooltip px-1 py-2 bg-primary group">
-                  <button className="btn">
-                    <Link href="./Blogs" className="group-hover:text-primary">
-                      Blogs
-                    </Link>
-                  </button>
-                </section>
+                <Link
+                  className="tooltip px-1 py-2 bg-primary group"
+                  href="./Blogs"
+                >
+                  <section className="group-hover:text-primary">
+                    <button className="btn">Blogs</button>
+                  </section>
+                </Link>
               </li>
               {/* Blogs End */}
 
               {/* Application Start */}
               <li tabIndex={0}>
-                <section
+                <Link
                   className="tooltip px-1 py-2 bg-primary group tooltip-open tooltip-top"
                   data-tip="NEW !"
+                  href="./Services/Web-Application"
                 >
-                  <button className="btn">
-                    <Link
-                      href="./Services/Web-Application"
-                      className="group-hover:text-primary flex gap-3 items-center group"
-                    >
+                  <section className="group-hover:text-primary flex gap-3 items-center group">
+                    <button className="btn">
                       Web Application
                       <svg
                         className="fill-current group-hover:rotate-180 transition-all"
@@ -474,34 +439,30 @@ const Nav = () => {
                       >
                         <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                       </svg>
-                    </Link>
-                  </button>
-                </section>
-
+                    </button>
+                  </section>{" "}
+                </Link>
                 <ul className="p-2">
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./Services/Web-Application"
-                          className="group-hover:text-primary"
-                        >
-                          MERN Stack
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/Web-Application"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">MERN Stack</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Services/Web-Application"
-                          className="group-hover:text-primary"
-                        >
-                          Next.JS Full Stack
-                        </Link>
-                      </button>
-                    </section>
+                    {" "}
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Services/Web-Application"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">Next.JS Full Stack</button>
+                      </section>{" "}
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -528,52 +489,46 @@ const Nav = () => {
 
                 <ul className="p-2">
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn  ">
-                        <Link
-                          href="./About"
-                          className="group-hover:text-primary"
-                        >
-                          About
-                        </Link>
-                      </button>
-                    </section>
+                    {" "}
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./About"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn  ">About</button>
+                      </section>
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Contact"
-                          className="group-hover:text-primary"
-                        >
-                          Contact
-                        </Link>
-                      </button>
-                    </section>
+                    {" "}
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Contact"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">Contact</button>
+                      </section>{" "}
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Client-Review"
-                          className="group-hover:text-primary"
-                        >
-                          Client&#39;s Review
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Client-Review"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">Client&#39;s Review</button>
+                      </section>{" "}
+                    </Link>
                   </li>
                   <li>
-                    <section className="tooltip px-1 py-2 bg-primary group">
-                      <button className="btn">
-                        <Link
-                          href="./Career"
-                          className="group-hover:text-primary"
-                        >
-                          Career
-                        </Link>
-                      </button>
-                    </section>
+                    <Link
+                      className="tooltip px-1 py-2 bg-primary group"
+                      href="./Career"
+                    >
+                      <section className="group-hover:text-primary">
+                        <button className="btn">Career</button>
+                      </section>{" "}
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -584,11 +539,11 @@ const Nav = () => {
 
           {/* Book Consultancy Start */}
           <section className="navbar-end">
-            <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[11px] font-bold px-0 md:w-[150px] lg:w-[200px]  ">
-              <Link href="./Contact" className="">
+            <Link href="./Contact" className="">
+              <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[11px] font-bold px-0 md:w-[150px] lg:w-[200px]  ">
                 Book a Consultancy
-              </Link>
-            </button>
+              </button>{" "}
+            </Link>
           </section>
           {/* Book Consultancy End */}
         </section>
