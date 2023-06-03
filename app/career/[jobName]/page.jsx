@@ -211,7 +211,7 @@ export default function page({params}) {
             <li>Strong problem-solving skills and attention to detail.</li>
             <li>Excellent communication and collaboration skills.</li>
             <li>
-              Bachelor's degree in Computer Science, Engineering, or a related
+              Bachelors degree in Computer Science, Engineering, or a related
               field (or equivalent experience).
             </li>
           </ul>
