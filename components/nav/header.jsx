@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import Button from "../Button/Button";
 const Nav = () => {
   return (
     <>
@@ -539,11 +539,7 @@ const Nav = () => {
 
           {/* Book Consultancy Start */}
           <section className="navbar-end">
-            <Link href="./Contact" className="">
-              <button className="btn hover:bg-neutral btn-outline border-2 rounded-2xl w-36 text-[11px] font-bold px-0 md:w-[150px] lg:w-[200px]  ">
-                Book a Consultancy
-              </button>{" "}
-            </Link>
+            <Button title="Book a Consultancy" route="./Contact" />
           </section>
           {/* Book Consultancy End */}
         </section>

@@ -4,7 +4,7 @@ import React from "react";
 const Cards = () => {
   return (
     <section>
-      <section className="text-gray-600 body-font">
+      <section className=" text-gray-600 body-font">
         <section className="container px-5 py-12 mx-auto">
           <h1 className="sm:text-3xl text-2xl font-bold title-font text-center text-gray-900 mb-20">
             <span className="md:ml-3 headingTag md:text-6xl">
