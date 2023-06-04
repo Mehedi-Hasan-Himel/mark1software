@@ -10,9 +10,9 @@ const Footer = () => {
         <section className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           {/* Footer Introductio Section Start */}
           <section className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <Link href="/" className="hover:bg-none">
+            <Link href="/" className="hover:bg-primary">
               <Image
-                src="logo-name-white.svg"
+                src="/logo-name-white.svg"
                 width={250}
                 height={250}
                 alt="Company Logo"
@@ -101,7 +101,7 @@ const Footer = () => {
                   return (
                     <li key={index}>
                       <Link
-                        target={item.route.length > 0 ? "_blank":undefined}
+                        target={item.route.length > 0 ? "_blank" : undefined}
                         href={item.route}
                         className="text-primary hover:text-[#34751a]"
                       >

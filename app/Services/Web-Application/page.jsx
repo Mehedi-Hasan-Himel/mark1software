@@ -1,11 +1,13 @@
-import React from 'react';
-
+import React from "react";
+import Price from "../../../components/Price/Price";
 const WebApplication = () => {
-   return (
-     <div>
-       <h1>Web-Application</h1>
-     </div>
-   );
+  return (
+    <section>
+      {/* Pricint Start */}
+      <Price />
+      {/* Pricint End */}
+    </section>
+  );
 };
 
 export default WebApplication;
