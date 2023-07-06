@@ -4,6 +4,7 @@ import Cards from "../../components/cards/page";
 import HomeAbout from "../../components/homeAbout/homeAbout";
 import OurServices from "../../components/ourServices/page";
 import ExperienceWith from "../../components/ExperienceWith/page";
+import RecentBlogs from "../../components/RecentBlogs/RecentBlogs"
 import Banner from "../../components/banner/Banner";
 import CommonBanner from "../../components/commonBanner/commonBanner";
 import Number from "../../components/number/Number";
@@ -30,6 +31,7 @@ const HomePage = () => {
         <Cards />
         <OurServices />
         <ExperienceWith />
+        <RecentBlogs/>
         <CommonBanner header="We have work with over 850 Clients!" />
         <Banner />
         <Number
